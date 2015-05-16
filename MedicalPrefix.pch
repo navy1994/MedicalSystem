@@ -1,0 +1,21 @@
+//
+//  MedicalPrefix.pch
+//  MedicalSystem
+//
+//  Created by mac on 15/3/24.
+//  Copyright (c) 2015年 xiatei. All rights reserved.
+//
+
+#ifndef MedicalSystem_MedicalPrefix_pch
+#define MedicalSystem_MedicalPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//获取设备的物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//获取设备的物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#endif
